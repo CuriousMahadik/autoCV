@@ -97,32 +97,6 @@
 %debug page outer frames
 %\usepackage{showframe}
 
-
-% job listing environments
-\newenvironment{jobshort}[2]
-    {
-    \begin{tabularx}{\linewidth}{@{}l X r@{}}
-    \textbf{#1} & \hfill &  #2 \\[3.75pt]
-    \end{tabularx}
-    }
-    {
-    }
-
-\newenvironment{joblong}[2]
-    {
-    \begin{tabularx}{\linewidth}{@{}l X r@{}}
-    \textbf{#1} & \hfill &  #2 \\[3.75pt]
-    \end{tabularx}
-    \begin{minipage}[t]{\linewidth}
-    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt,label=--]
-    }
-    {
-    \end{itemize}
-    \end{minipage}    
-    }
-
-
-
 %----------------------------------------------------------------------------------------
 %	BEGIN DOCUMENT
 %----------------------------------------------------------------------------------------
@@ -142,76 +116,126 @@
 % \end{tabularx}
 
 \begin{tabularx}{\linewidth}{@{} C @{}}
-\Huge{Your Name} \\[7.5pt]
-\href{https://github.com/username}{\raisebox{-0.05\height}\faGithub\ username} \ $|$ \ 
-\href{https://linkedin.com/in/username}{\raisebox{-0.05\height}\faLinkedin\ username} \ $|$ \ 
-\href{https://mysite.com}{\raisebox{-0.05\height}\faGlobe \ mysite.com} \ $|$ \ 
-\href{mailto:email@mysite.com}{\raisebox{-0.05\height}\faEnvelope \ email@mysite.com} \ $|$ \ 
-\href{tel:+000000000000}{\raisebox{-0.05\height}\faMobile \ +00.00.000.000} \\
+\Huge{NIKHIL MAHADIK} \\[7.5pt]
+\href{https://github.com/liNikham}{\raisebox{-0.05\height}\faGithub\ liNikham} \ $|$ \ 
+\href{https://linkedin.com/in/nikhil2508}{\raisebox{-0.05\height}\faLinkedin\ liNikham} \ $|$ \ 
+\href{mailto:mahadiknikhil2508@gmail.com}{\raisebox{-0.05\height}\faEnvelope \ mahadiknikhil2508@gmail.com} \ $|$ \ 
+\href{tel:+918208425394}{\raisebox{-0.05\height}\faMobile \ +91-8208425394} \\
 \end{tabularx}
 
 %----------------------------------------------------------------------------------------
 % EXPERIENCE SECTIONS
 %----------------------------------------------------------------------------------------
 
-%Interests/ Keywords/ Summary
-\section{Summary}
-This CV is automatically generated and deployed using the \href{https://github.com/jitinnair1/autoCV}{autoCV} template along with GitHub Actions such that a new version of the CV is compiled, published and ready for use when the cv.tex file is updated. For details, \href{https://github.com/jitinnair1/autoCV}{click here}.
-
-%Experience
-\section{Work Experience}
-
-\begin{jobshort}{Designation}{Jan 2021 - present}
-long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width
-\end{jobshort}
-
-
-\begin{joblong}{Designation}{Mar 2019 - Jan 2021}
-\item long long line of blah blah that will wrap when the table fills the column width
-\item again, long long line of blah blah that will wrap when the table fills the column width but this time even more long long line of blah blah. again, long long line of blah blah that will wrap when the table fills the column width but this time even more long long line of blah blah
-\end{joblong}
-  
-%Projects
-\section{Projects}
-
-\begin{tabularx}{\linewidth}{ @{}l r@{} }
-\textbf{Some Project} & \hfill \href{https://some-link.com}{Link to Demo} \\[3.75pt]
-\multicolumn{2}{@{}X@{}}{long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width}  \\
-\end{tabularx}
-
 %----------------------------------------------------------------------------------------
 %	EDUCATION
 %----------------------------------------------------------------------------------------
 \section{Education}
 \begin{tabularx}{\linewidth}{@{}l X@{}}	
-2030 - present & PhD (Subject) at \textbf{University} \hfill \normalsize (GPA: 4.0/4.0) \\
+2021 - present & B.E. (Computer Science And Engineering) at \textbf{University Of Mumbai} \hfill \normalsize \textbf{CGPA} - 7.5 \\
 
-2023 - 2027 & Bachelor's Degree at \textbf{College} \hfill (GPA: 4.0/4.0) \\ 
 
-2022 & Class 12th Some Board \hfill  (Grades) \\
+% 2023 - 2027 & Bachelor's Degree at \textbf{College} \hfill (GPA: 4.0/4.0) \\ 
 
-2021 & Class 10th Some Board \hfill  (Grades) \\
+% 2022 & Class 12th Some Board \hfill  (Grades) \\
+
+% 2021 & Class 10th Some Board \hfill  (Grades) \\
 \end{tabularx}
 
+
+
+
 %----------------------------------------------------------------------------------------
-%	PUBLICATIONS
+%	Coding Profiles
 %----------------------------------------------------------------------------------------
-\section{Publications}
-\begin{refsection}[citations.bib]
-\nocite{*}
-\printbibliography[heading=none]
-\end{refsection}
+\section{Coding Profiles}
+\begin{tabularx}{\linewidth}{@{}l X@{}}	
+\textbf{LeetCode :} \href{https://leetcode.com/liNikham}
+{\raisebox{-0.05\height}\ liNikham} \ 
+\textbf{CodeChef :} \href{https://www.codechef.com/users/mahadiknikhil}
+{\raisebox{-0.05\height}\ liNikham} \ 
+\textbf{CodeForces :} \href{https://codeforces.com/profile/NikhilMahadik}
+{\raisebox{-0.05\height}\ liNikham} \ 
+\end{tabularx}
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	Coding Profiles
+%----------------------------------------------------------------------------------------
+
+
+\section{Relevant Coursework}
+\begin{tabularx}{\linewidth}{@{}X X@{}}	
+\textbf{Data Structures \& Algorithms} & \textbf{OOP (JAVA/C++)} \\
+\textbf{Operating System (OS)} & \textbf{Database Management System (DBMS)} \\
+\textbf{Computer Network (CN)} & \\
+\end{tabularx}
+
+
+
+
+
+
+
+%Projects
+\section{Projects}
+
+\noindent
+\begin{tabularx}{\linewidth}{ @{}X@{} }
+    \textbf{E-commerce Website} \\ \\
+    \begin{minipage}{\linewidth}
+        \begin{itemize}
+            \item \textbf{Technology Stack:} MERN (MongoDB, Express.js, React, Node.js)
+            \item \textbf{Key Contributions:}
+            \begin{itemize}
+                \item Created a responsive user interface using React and TailWind CSS.
+                \item Built RESTful APIs with Node.js and Express.js for backend operations.
+                \item Designed MongoDB schema for efficient data management.
+            \end{itemize}
+        \end{itemize}
+    \end{minipage}
+\end{tabularx}
+
+\noindent
+\begin{tabularx}{\linewidth}{ @{}X@{} }
+    \textbf{Expense Tracker App} \\ \\
+    \begin{minipage}{\linewidth}
+        \begin{itemize}
+            \item \textbf{Technology Stack:} MERN (MongoDB, Express.js, React, Node.js)
+            \item \textbf{Key Contributions:}
+            \begin{itemize}
+                \item Implemented a user-friendly interface using React and CSS for seamless expense tracking.
+                \item Developed backend APIs with Node.js and Express.js for managing expense records and user authentication.
+                \item Designed and maintained the database schema using MongoDB for efficient data storage and retrieval.
+            \end{itemize}
+        \end{itemize}
+    \end{minipage}
+\end{tabularx}
+
 
 %----------------------------------------------------------------------------------------
 %	SKILLS
 %----------------------------------------------------------------------------------------
-\section{Skills}
+\section{Technical Skills}
 \begin{tabularx}{\linewidth}{@{}l X@{}}
-Some Skills &  \normalsize{This, That, Some of this and that etc.}\\
-Some More Skills  &  \normalsize{Also some more of this, Some more that, And some of this and that etc.}\\  
+Programming Languages &  \normalsize{C++, Java , Python}\\
+Frameworks/Libraries &  \normalsize{React ,Express ,Node ,Mongoose ,Tailwind}\\  
+Databases &  \normalsize{MySql ,MongoDB}\\ 
+Tools/Platforms &  \normalsize{Git/GitHub ,Vs Code ,IntelliJ Idea}\\ 
 \end{tabularx}
 
-\vfill
-\center{\footnotesize Last updated: \today}
+%----------------------------------------------------------------------------------------
+%	Achievements
+%----------------------------------------------------------------------------------------
+\section{Achievements}
+\begin{tabularx}{\linewidth}{ @{}X@{} }
+ VCET's \textbf{Code Craze} Winner (3rd Rank) \\
+ VCET's National Level Project Showcase \textbf{(VNPS)} 2024 Winner(1st Rank) \\
+ Cracked \textbf{HackWithInfy} 
+\end{tabularx}
+
+
 
 \end{document}
